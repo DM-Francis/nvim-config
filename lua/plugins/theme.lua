@@ -1,4 +1,3 @@
--- Hello this is a comment
 return {
   "folke/tokyonight.nvim",
   lazy = false,
