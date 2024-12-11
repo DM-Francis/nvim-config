@@ -3,10 +3,11 @@ return {
   lazy = false,
   priority = 1000,
   opts = {},
+  enabled = false,
   config = function()
     require("tokyonight").setup({
       styles = {
-	comments = { italic = false },
+	comments = { italic = true },
 	keywords = { italic = false }
       },
       on_colors = function(colors)
